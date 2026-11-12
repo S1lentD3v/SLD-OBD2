@@ -1,0 +1,72 @@
+SLD OBD2
+Copyright (c) 2026 Silent Software. All rights reserved.
+
+SOFTWARE LICENSE
+
+1. Grant. You may download, install and use SLD OBD2 (the "Software") free of charge, on any
+   number of your own devices, for personal or commercial purposes.
+
+2. Restrictions. Unless the copyright holder gives you written permission, you may not:
+   a) copy, redistribute, sell, rent, sublicense or publish the Software or any modified version
+      of it, including on other app stores or websites;
+   b) modify, translate, decompile, disassemble or reverse engineer the Software, except where
+      applicable law expressly permits this despite this restriction;
+   c) remove or change any copyright, license or attribution notices in the Software.
+   Linking to the official releases page is always allowed.
+
+3. Responsible use. You may only use the Software with vehicles you own or where the owner has
+   given you permission. The Software reads diagnostic information; explanations and decoded
+   values are general guidance and may be incomplete or wrong for a particular vehicle. Always
+   have a qualified mechanic confirm repairs. Never operate the Software while driving.
+
+4. Third-party data. Optional data downloaded by the Software comes from third parties under
+   their own licenses (see "Third-party notices" below). This license does not change those terms.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+6. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT,
+   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE, ITS USE, OR ANY
+   VEHICLE, REPAIR OR DECISION BASED ON IT.
+
+7. Termination. This license ends automatically if you break its terms; you must then delete
+   the Software.
+
+-------------------------------------------------------------------------------
+THIRD-PARTY NOTICES
+-------------------------------------------------------------------------------
+
+The Software includes the following open-source components:
+
+- Android Jetpack (Compose, Room, Navigation, Lifecycle, Activity, Core), Kotlin standard
+  library, kotlinx.coroutines, Material Components and icons
+  Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+- usb-serial-for-android (https://github.com/mik3y/usb-serial-for-android)
+  MIT License.
+  Copyright (c) 2011-2013 Google Inc.
+  Copyright (c) 2013 Mike Wakerly
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+  and associated documentation files (the "Software"), to deal in the Software without
+  restriction, including without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+  Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all copies or
+  substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+  BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+  DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Optional data downloaded at runtime (not included in the app):
+
+- OBDb manufacturer data (https://github.com/OBDb), Creative Commons Attribution-ShareAlike 4.0
+  International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+- opendbc CAN database files (https://github.com/commaai/opendbc), MIT License,
+  Copyright (c) 2020, Comma.ai, Inc.
